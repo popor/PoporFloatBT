@@ -62,6 +62,8 @@ typedef void(^Block_PoporFloatEntity)(PoporFloatEntity * pfEntity);
 
 - (void)showHiddenFloatView;
 
+- (void)showFloatView:(BOOL)show;
+
 @end
 
 NS_ASSUME_NONNULL_END

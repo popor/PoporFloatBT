@@ -53,13 +53,17 @@
 }
 
 - (UIButton *)addBtSize:(CGSize)size cellArray:(NSArray<PoporFloatEntity *> * _Nullable)cellArray {
+    if (!self.pf) {
+        self.pf = [PoporFloatBT share];
+    }
+    
     UIButton * bt = [[PoporFloatBT share] addFloatBtSize:size];
     if (cellArray) {
         [self.btCellDic setObject:cellArray forKey:[NSString stringWithFormat:@"%li", (long)bt.tag]];
     }
     
     [bt addTarget:self action:@selector(showFuncSelector:) forControlEvents:UIControlEventTouchUpInside];
-    
+        
     return bt;
 }
 
@@ -81,6 +85,12 @@
     
     for (UIButton * bt in self.pf.btArray) {
         bt.hidden = !hidden;
+    }
+}
+
+- (void)showFloatView:(BOOL)show {
+    for (UIButton * bt in self.pf.btArray) {
+        bt.hidden = !show;
     }
 }
 

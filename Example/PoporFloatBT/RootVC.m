@@ -76,6 +76,8 @@
         
         
         [ptv addDefaultShowGR];
+        
+        [ptv showFloatView:NO];
     });
     
     // iPhone 模拟器也可以记录最后拖拽的点, 前提是不能由xcode中止APP.
