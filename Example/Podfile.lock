@@ -1,0 +1,25 @@
+PODS:
+  - PoporAlertBubbleView (1.02)
+  - PoporFloatBT/FloatBT (1.0)
+  - PoporFloatBT/FloatTV (1.0):
+    - PoporAlertBubbleView
+    - PoporFloatBT/FloatBT
+
+DEPENDENCIES:
+  - PoporFloatBT/FloatTV (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - PoporAlertBubbleView
+
+EXTERNAL SOURCES:
+  PoporFloatBT:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PoporAlertBubbleView: 8a02b8b3331534eef503adaa83f77f8867fb74a4
+  PoporFloatBT: 1c047b1fe902959d6b741052f7ad9561a5abe2ed
+
+PODFILE CHECKSUM: 945c92ba60f0cb89e9f52cfc7e1157b4b6b3e4f6
+
+COCOAPODS: 1.10.1

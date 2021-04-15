@@ -1,0 +1,6 @@
+framework module PoporFloatBT {
+  umbrella header "PoporFloatBT-umbrella.h"
+
+  export *
+  module * { export * }
+}
