@@ -18,7 +18,7 @@ pod 'PoporFloatBT/FloatTV'
 
 ```
 
-<p> <img src="/image/image0.png"  width="30%" height="30%"> </p>
+<p> <img src="/image/image0.png"  width="50%" height="50%"> </p>
 
 ## Author
 
