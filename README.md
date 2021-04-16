@@ -1,11 +1,6 @@
 # PoporFloatBT
 
-[![CI Status](https://img.shields.io/travis/popor/PoporFloatBT.svg?style=flat)](https://travis-ci.org/popor/PoporFloatBT)
-[![Version](https://img.shields.io/cocoapods/v/PoporFloatBT.svg?style=flat)](https://cocoapods.org/pods/PoporFloatBT)
-[![License](https://img.shields.io/cocoapods/l/PoporFloatBT.svg?style=flat)](https://cocoapods.org/pods/PoporFloatBT)
-[![Platform](https://img.shields.io/cocoapods/p/PoporFloatBT.svg?style=flat)](https://cocoapods.org/pods/PoporFloatBT)
-
-## Example
+# Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -22,6 +17,8 @@ pod 'PoporFloatBT'
 pod 'PoporFloatBT/FloatTV'
 
 ```
+
+<p> <img src="/image/image0.png"  width="30%" height="30%"> </p>
 
 ## Author
 
