@@ -35,12 +35,11 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         PoporFloatTV * ptv = [PoporFloatTV share];
         
-        NSInteger i = 0;
         {
             NSArray * cellArray = @[
-                PfeInit(i++, @"网络请求"),
-                PfeInit(i++, @"域名配置"),
-                PfeClose(i++, @"测试1", NO),
+                PfeInit (11, @"网络请求"),
+                PfeInit (12, @"域名配置"),
+                PfeClose(13, @"测试1", NO),
             ];
             UIButton * bt = [ptv addBtSize:CGSizeMake(50, 50) cellArray:cellArray];
             [bt setTitle:@"1" forState:UIControlStateNormal];
@@ -48,21 +47,19 @@
         
         {
             NSArray * cellArray = @[
-                PfeInit(i++, @"网络请求"),
-                PfeInit(i++, @"域名配置"),
-                PfeInit(i++, @"测试1"),
-                PfeInit(i++, @"监测内存"),
-                PfeInit(i++, @"测试3"),
-                PfeInit(i++, @"H5"),
+                PfeInit(20, @"网络请求"),
+                PfeInit(21, @"域名配置"),
+                PfeInit(22, @"测试1"),
+                PfeInit(23, @"监测内存"),
+                PfeInit(24, @"测试3"),
+                PfeInit(25, @"H5"),
             ];
             UIButton * bt = [ptv addBtSize:CGSizeMake(50, 50) cellArray:cellArray];
-            
             [bt setTitle:@"2" forState:UIControlStateNormal];
         }
         
         {
             UIButton * bt = [ptv addBtSize:CGSizeMake(50, 50) cellArray:nil];
-            
             [bt setTitle:@"单独" forState:UIControlStateNormal];
         }
         
