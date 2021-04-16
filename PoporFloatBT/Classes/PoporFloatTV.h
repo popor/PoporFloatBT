@@ -13,8 +13,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-//#define PfeInit(tag, title)             [[PoporFloatEntity alloc] initTag:tag t##itle:title]
-//#define PfeClose(tag, title, autoClose) [[PoporFloatEntity alloc] initTag:tag t##itle:title close:autoClose]
+#define PfeInit(tag, title)             [[PoporFloatEntity alloc] initTag:tag t##itle:title]
+#define PfeClose(tag, title, autoClose) [[PoporFloatEntity alloc] initTag:tag t##itle:title close:autoClose]
 
 @class PoporFloatEntity;
 typedef void(^Block_PoporFloatView)(UIButton * bt);
@@ -32,14 +32,6 @@ typedef void(^Block_PoporFloatEntity)(PoporFloatEntity * pfEntity);
 - (instancetype)initTag:(NSInteger)tag title:(NSString *)title close:(BOOL)autoClose;
 
 @end
-
-static PoporFloatEntity * PfeInit(NSInteger tag, NSString * title) {
-    return [[PoporFloatEntity alloc] initTag:tag title:title];
-}
-
-static PoporFloatEntity * PfeClose(NSInteger tag, NSString * title, BOOL autoClose) {
-    return [[PoporFloatEntity alloc] initTag:tag title:title close:autoClose];
-}
 
 @interface PoporFloatTV : NSObject
 
