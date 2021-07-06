@@ -1,7 +1,7 @@
 PODS:
   - PoporAlertBubbleView (1.02)
-  - PoporFloatBT/FloatBT (1.0)
-  - PoporFloatBT/FloatTV (1.0):
+  - PoporFloatBT/FloatBT (1.1)
+  - PoporFloatBT/FloatTV (1.1):
     - PoporAlertBubbleView
     - PoporFloatBT/FloatBT
 
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   PoporAlertBubbleView: 8a02b8b3331534eef503adaa83f77f8867fb74a4
-  PoporFloatBT: 1c047b1fe902959d6b741052f7ad9561a5abe2ed
+  PoporFloatBT: 179e84d161dc26e41c2754ce32cbc41f8c19efdc
 
 PODFILE CHECKSUM: 945c92ba60f0cb89e9f52cfc7e1157b4b6b3e4f6
 

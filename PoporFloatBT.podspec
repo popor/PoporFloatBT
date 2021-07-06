@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PoporFloatBT'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'PoporFloatBT 悬浮UIButton, PoporFloatTV 悬浮的tableview, 可以增加多个.'
   s.homepage         = 'https://gitee.com/popor/PoporFloatBT'
   
